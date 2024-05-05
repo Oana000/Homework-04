@@ -46,7 +46,6 @@ a {
     font-family: 'Roboto',
         sans-serif;
     color: black;
-    margin-top: 80px;
 }
 .header__navigation ul{
     list-style: none;
@@ -281,6 +280,7 @@ a {
     background-size: cover;
     width: 1600px;
     height: 600px;
+    background-position: 65% 35%;
 }
 
 .main__service {
@@ -299,7 +299,6 @@ a {
     border-radius: 4px;
     cursor: pointer;
     text-align: center;
-    margin-top: 30px;
 }
 
 .button:hover {
@@ -438,6 +437,13 @@ a {
     background-color: #F5F4FA;
 }
 
+.team__social {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
 .main__img1 {
     font-family: 'Roboto',
             sans-serif;
@@ -446,6 +452,10 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+    background-color: var(--white);
+    box-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024, 0px 1px 3px 0px #0000001F;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .main__name-1 {
@@ -472,6 +482,10 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+    background-color: var(--white);
+    box-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024, 0px 1px 3px 0px #0000001F;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .main__name-2 {
@@ -498,6 +512,10 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+    background-color: var(--white);
+    box-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024, 0px 1px 3px 0px #0000001F;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .main__name-3 {
@@ -524,6 +542,10 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+    background-color: var(--white);
+    box-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024, 0px 1px 3px 0px #0000001F;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .main__name-4 {
@@ -540,6 +562,21 @@ a {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+}
+
+.main__customers {
+    font-family: 'Roboto',
+        sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.main__icon {
+    display: flex;
 }
 
 .footer__info {
@@ -560,4 +597,9 @@ a {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
 }
