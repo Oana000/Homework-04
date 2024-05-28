@@ -23,17 +23,31 @@
     <!--Header section-->
     <header class="header">
         <div class="container">
-            <nav class="header__navigation">
-                <h2><a href="WebStudio"></a></h2>
-                <ul>
-                    <li><a href="./index.html">Studio</a></li>
-                    <li><a href="./portfolio.html">Portfolio</a></li>
-                    <li><a href="#">Contacts</a></li>
-                </ul>
-            </nav>
+            <div>
+                <nav class="header__navigation">    
+                    <ul>
+                        <a href=""><img src="images/WebStudio.png" alt=""></a>
+                        
+                        <li><a href="./index.html">Studio</a></li>
+                        <li><a href="./portfolio.html">Portfolio</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
             <address class="header__info">
-                <div>info@devstudio.com</div>
-                <div>+1212-772-4150</div>
+                <div class="header__icon">
+                    <svg>
+                        <use href="./icons.svg/symbol-defs.svg#icon-envelope"/>
+                    </svg>
+                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </div>
+
+                <div class="header__icon">
+                    <svg>
+                        <use href="./icons.svg/symbol-defs.svg#icon-smartphone" />
+                    </svg>
+                        <a href="tel:+1212-772-4150">+1212-772-4150</a>
+                </div>
             </address>
         </div>
     </header>
@@ -294,67 +308,71 @@
 
         <section>
             <h2 class="main__customers">Regular Customers</h2>
-            <ul class="main__icon">
-                <li>
-                    <a href="">
-                        <svg>
-                            <use href="./icons.svg/symbol-defs.svg#icon-client-1"/>
-                        </svg>
-                    </a>
-                </li>
+            <div class="main__customers__icon">
+                <ul class="main__icon">
+                    <li>
+                        <a href="">
+                            <svg>
+                                <use href="./icons.svg/symbol-defs.svg#icon-client-1"/>
+                            </svg>
+                        </a>
+                    </li>
 
-                <li>
-                    <a href="">
-                        <svg>
-                            <use href="./icons.svg/symbol-defs.svg#icon-client-2" />
-                        </svg>
-                    </a>
-                </li>
+                    <li>
+                        <a href="">
+                            <svg>
+                                <use href="./icons.svg/symbol-defs.svg#icon-client-2" />
+                            </svg>
+                        </a>
+                    </li>
 
-                <li>
-                    <a href="">
-                        <svg>
-                            <use href="./icons.svg/symbol-defs.svg#icon-client-3" />
-                        </svg>
-                    </a>
-                </li>
+                    <li>
+                        <a href="">
+                            <svg>
+                                <use href="./icons.svg/symbol-defs.svg#icon-client-3" />
+                            </svg>
+                        </a>
+                    </li>
 
-                <li>
-                    <a href="">
-                        <svg>
-                            <use href="./icons.svg/symbol-defs.svg#icon-client-4" />
-                        </svg>
-                    </a>
-                </li>
+                    <li>
+                        <a href="">
+                            <svg>
+                                <use href="./icons.svg/symbol-defs.svg#icon-client-4" />
+                            </svg>
+                        </a>
+                    </li>
 
-                <li>
-                    <a href="">
-                        <svg>
-                            <use href="./icons.svg/symbol-defs.svg#icon-client-5" />
-                        </svg>
-                    </a>
-                </li>
+                    <li>
+                        <a href="">
+                            <svg>
+                                <use href="./icons.svg/symbol-defs.svg#icon-client-5" />
+                            </svg>
+                        </a>
+                    </li>
 
-                <li>
-                    <a href="">
-                        <svg>
-                            <use href="./icons.svg/symbol-defs.svg#icon-client-6" />
-                        </svg>
-                    </a>
-                </li>
-            </ul>
+                    <li>
+                        <a href="">
+                            <svg>
+                                <use href="./icons.svg/symbol-defs.svg#icon-client-6" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <!--Footer section-->
         <footer class="footer">
             <div class="container">
-                    <p><a href="WebStudio"></a></p>
+                    <a href=""><img src="images/WebStudio.png" alt=""></a>
                 <address class="footer__info"> 
                         <div><a href="address:ParkAve,NY10065,USA">ParkAve,NY10065,USA</a></div>
                         <div><a href="mailto:info@devstudio.com">info@devstudio.com</a></div>
                         <div><a href="tel:212-772-4150">212-772-4150</a></div>  
                 </address>
             </div>
+            <a href=""><img src="images/Ellipsee.svg"></a>
+            <a href=""><img src="images/Social links.svg"></a>
         </footer>
 </body>
 </html>
